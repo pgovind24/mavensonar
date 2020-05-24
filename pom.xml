@@ -23,7 +23,7 @@
 	</dependencies>
 	<profiles>
 <profile>
-<id>sonarcloud</id>
+<id>sonarqube</id>
 <activation>
 <activeByDefault>true</activeByDefault>
 </activation>
@@ -32,7 +32,7 @@
 	<sonar.projectKey>padmarajugadam_mavenwar</sonar.projectKey>
   <sonar.organization>padmarajugadam</sonar.organization>
 <sonar.host.url>
-https://sonarcloud.io
+http://localhost:9000/projects
 </sonar.host.url>
 </properties>
 </profile>
