@@ -6,7 +6,7 @@ pipeline {
 	 stages {
     stage('Analysis') {
 	 steps {
-              withSonarQubeEnv('sonarcloud') {
+              withSonarQubeEnv('SonarQube') {
                 sh 'mvn  sonar:sonar'
               }
               echo "Analysis"
