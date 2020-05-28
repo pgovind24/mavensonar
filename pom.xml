@@ -29,10 +29,10 @@
 </activation>
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-	<sonar.projectKey>pgovind24</sonar.projectKey>
-  <!-- sonar.organization>pgovind24</sonar.organization-->
+	<sonar.projectKey>padmarajugadam_mavenwar</sonar.projectKey>
+  <sonar.organization>padmarajugadam</sonar.organization>
 <sonar.host.url>
-http://localhost:9000/projects
+https://sonarcloud.io
 </sonar.host.url>
 </properties>
 </profile>
